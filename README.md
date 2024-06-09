@@ -1,9 +1,1 @@
-# JS-Practice-Repo
-
-# please you can do it !!
-
-# Coman but
-
-# tes tess
-
-# sende siktirip gidiceksin !!
+# A place to improve my JavaScript skills with practical exercises.
