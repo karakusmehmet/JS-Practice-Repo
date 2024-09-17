@@ -23,7 +23,7 @@ Projeyi yerel ortamınızda çalıştırmak için:
 
 1. Reponun bir kopyasını indirin:
    ```bash
-   git clone https://github.com/kullaniciadiniz/JS-Practice-Repo.git
+   git clone https://github.com/karakusmehmet/JS-Practice-Repo.git
 
 
 
@@ -56,4 +56,4 @@ To run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/JS-Practice-Repo.git
+   git clone https://github.com/karakusmehmet/JS-Practice-Repo.git
