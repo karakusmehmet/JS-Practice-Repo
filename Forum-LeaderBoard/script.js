@@ -1,4 +1,5 @@
-const forumLatest = "https://cdn.freecodecamp.org/curriculum/forum-latest/latest.json";
+const forumLatest =
+  "https://cdn.freecodecamp.org/curriculum/forum-latest/latest.json";
 const forumTopicUrl = "https://forum.freecodecamp.org/t/";
 const forumCategoryUrl = "https://forum.freecodecamp.org/c/";
 const avatarUrl = "https://sea1.discourse-cdn.com/freecodecamp";
@@ -101,19 +102,20 @@ const showLatestPosts = (data) => {
   const { topic_list, users } = data;
   const { topics } = topic_list;
 
-  postsContainer.innerHTML = topics.map((item) => {
-    const {
-      id,
-      title,
-      views,
-      posts_count,
-      slug,
-      posters,
-      category_id,
-      bumped_at,
-    } = item;
+  postsContainer.innerHTML = topics
+    .map((item) => {
+      const {
+        id,
+        title,
+        views,
+        posts_count,
+        slug,
+        posters,
+        category_id,
+        bumped_at,
+      } = item;
 
-    return `
+      return `
     <tr>
       <td>
          <a target="_blank" href="${forumTopicUrl}${slug}/${id}" class="post-title">${title}
@@ -129,6 +131,6 @@ const showLatestPosts = (data) => {
       <td>${viewCount(views)}</td>
       <td>${timeAgo(bumped_at)}</td>
     </tr>`;
-  }).join("");
+    })
+    .join("");
 };
-
