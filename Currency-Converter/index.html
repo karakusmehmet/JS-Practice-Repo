@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="currency-converter">
+        <div class="header">
+          <h3>CURRENCY CONVERTER</h3>
+          <hr />
+        </div>
+        <div class="inputs">
+          <div class="all-inputs">
+            <input placeholder="Amount" min="0" type="number" id="value" />
+            <select id="from-money">
+              <option value="TRY">TRY</option>
+              <option value="EUR">EUR</option>
+              <option selected value="USD">USD</option>
+              <option value="PLN">PLN</option>
+              <option value="CZK">CZK</option>
+              <option value="DKK">DKK</option>
+              <option value="HUF">HUF</option>
+            </select>
+            <i class="bx bx-right-arrow-alt"></i>
+            <select id="to-money">
+              <option selected value="TRY">TRY</option>
+              <option value="EUR">EUR</option>
+              <option value="USD">USD</option>
+              <option value="PLN">PLN</option>
+              <option value="CZK">CZK</option>
+              <option value="DKK">DKK</option>
+              <option value="HUF">HUF</option>
+            </select>
+            <input placeholder="Result" id="result" disabled type="number" />
+          </div>
+          <div class="convert-button">
+            <button id="convert-btn">Convert</button>
+          </div>
+        </div>
+        <div class="info">
+          <h4>Copyright - Mehmet Karakuş</h4>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
