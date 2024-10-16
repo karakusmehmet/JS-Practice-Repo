@@ -16,7 +16,7 @@ const runEvents = () => {
   });
 
   convertButton.addEventListener("click", async (e) => {
-    const value = userValue.value;
+    const value = Number(userValue.value);
     const currency = toMoney.value;
     const allData = getData();
 
