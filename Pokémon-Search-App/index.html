@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pokemon Search App</h1>
+      <div class="main-container">
+        <div class="input-field">
+          <label for="search-input">Search for Pokemon Name or ID:</label>
+          <div class="input-search">
+            <input id="search-input" type="text" />
+            <button id="search-button">Search</button>
+          </div>
+        </div>
+        <div id="pokemon-info-field">
+          <!-- <div class="pokemon-info">
+            <div class="name-id">
+              <span id="pokemon-name">PIKACHU</span>
+              <span id="pokemon-id">#25</span>
+            </div>
+            <div class="weight-height">
+              <span id="weight">Weight: 60</span>
+              <span id="height">Height: 4</span>
+            </div>
+          </div>
+          <div class="pokemon-img">
+            <img
+              id="sprite"
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+              alt=""
+            />
+          </div>
+          <div class="pokemon-abilities">
+            <div>ELECTRİC</div>
+          </div> -->
+        </div>
+        <div class="pokemon-defail-info-field">
+          <div class="details">
+            <div class="detail">
+              <div>HP:</div>
+              <div id="hp"></div>
+            </div>
+            <div class="detail">
+              <div>Attack:</div>
+              <div id="attack"></div>
+            </div>
+            <div class="detail">
+              <div>Defense:</div>
+              <div id="defense"></div>
+            </div>
+            <div class="detail">
+              <div>Sp.Attack:</div>
+              <div id="special-attack"></div>
+            </div>
+            <div class="detail">
+              <div>Sp.Defense:</div>
+              <div id="special-defense"></div>
+            </div>
+            <div class="detail">
+              <div>Speed:</div>
+              <div id="speed"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
